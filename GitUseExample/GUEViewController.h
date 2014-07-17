@@ -10,4 +10,6 @@
 
 @interface GUEViewController : UIViewController
 
+- (IBAction)clickTheButton:(id)sender;
+
 @end

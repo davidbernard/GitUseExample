@@ -10,11 +10,6 @@
 
 @implementation GUEAppDelegate
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-    // Override point for customization after application launch.
-    return YES;
-}
 							
 - (void)applicationWillResignActive:(UIApplication *)application
 {
@@ -41,6 +36,15 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (BOOL)application:(UIApplication *)application
+didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    // Override point for customization after application launch.
+    NSLog(@"application did finish launching");
+    
+    return YES;
 }
 
 @end
