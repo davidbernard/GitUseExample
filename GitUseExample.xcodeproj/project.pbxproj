@@ -21,6 +21,7 @@
 		202110AE19788F320078C78D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2021109019788F320078C78D /* UIKit.framework */; };
 		202110B619788F320078C78D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 202110B419788F320078C78D /* InfoPlist.strings */; };
 		202110B819788F320078C78D /* GitUseExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 202110B719788F320078C78D /* GitUseExampleTests.m */; };
+		202110C3197894920078C78D /* GUEMapForItinerary.m in Sources */ = {isa = PBXBuildFile; fileRef = 202110C2197894920078C78D /* GUEMapForItinerary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		202110B319788F320078C78D /* GitUseExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitUseExampleTests-Info.plist"; sourceTree = "<group>"; };
 		202110B519788F320078C78D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		202110B719788F320078C78D /* GitUseExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitUseExampleTests.m; sourceTree = "<group>"; };
+		202110C1197894920078C78D /* GUEMapForItinerary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GUEMapForItinerary.h; sourceTree = "<group>"; };
+		202110C2197894920078C78D /* GUEMapForItinerary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GUEMapForItinerary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				2021109B19788F320078C78D /* GUEAppDelegate.h */,
 				2021109C19788F320078C78D /* GUEAppDelegate.m */,
 				2021109E19788F320078C78D /* Main.storyboard */,
+				202110C1197894920078C78D /* GUEMapForItinerary.h */,
+				202110C2197894920078C78D /* GUEMapForItinerary.m */,
 				202110A119788F320078C78D /* GUEViewController.h */,
 				202110A219788F320078C78D /* GUEViewController.m */,
 				202110A419788F320078C78D /* Images.xcassets */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				202110C3197894920078C78D /* GUEMapForItinerary.m in Sources */,
 				2021109D19788F320078C78D /* GUEAppDelegate.m in Sources */,
 				202110A319788F320078C78D /* GUEViewController.m in Sources */,
 				2021109919788F320078C78D /* main.m in Sources */,
